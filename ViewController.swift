@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    func fromStringToInt (variabile: String) -> Int {
+        var risultato = 0
+        risultato = Int(variabile)!
+        return risultato
+    }
+    
+    
 }
+
 
