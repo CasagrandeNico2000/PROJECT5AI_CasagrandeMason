@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         return risultato
     }
     
+    func calcolaAreaQuadrato(lato: Int)-> Int{
+        var area = 0
+        area = lato * lato
+        return area
+    }
+    
     
 }
 
